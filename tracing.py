@@ -14,8 +14,8 @@ resource = Resource(attributes={
 tracer_provider = TracerProvider(resource=resource)
 
 # create an OTLP trace exporter
-url = 'https://alpha1.gke.zinclabs.dev/api/default/traces'
-headers = {"Authorization": "Basic cm9vdEBleGFtcGxlLmNvbTpDb21wbGV4cGFzcyMxMjM="}
+url = 'HTTP_Endpoint'
+headers = {"Authorization": "Basic Access_Key"}
 
 exporter = OTLPSpanExporter(endpoint=url, headers=headers)
 
