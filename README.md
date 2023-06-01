@@ -2,25 +2,25 @@
 
 ## Installation
 
-### Clone this repositiory
+#### Clone this repositiory
 
 ```
 git clone https://github.com/openobserve/sample-tracing-python.git
 ```
 
-### navigate to your project directory
+#### Navigate to your project directory
 
 ```
 cd sample-tracing-python
 ```
 
-### Create the virtual environment
+#### Create the virtual environment
 
 ```
 python3 -m venv venv
 ```
 
-### Activate the virtual environment
+#### Activate the virtual environment
 
 On macOS and Linux:
 
@@ -34,13 +34,13 @@ On Windows:
 .\env\Scripts\activate
 ```
 
-### Install dependencies
+#### Install dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-### Start application
+#### Start application
 
 ```
 python3 app.py
