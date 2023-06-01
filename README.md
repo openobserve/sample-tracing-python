@@ -25,13 +25,13 @@ python3 -m venv venv
 On macOS and Linux:
 
 ```
-source env/bin/activate
+source venv/bin/activate
 ```
 
 On Windows:
 
 ```
-.\env\Scripts\activate
+.\venv\Scripts\activate
 ```
 
 #### Install dependencies
