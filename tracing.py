@@ -14,8 +14,9 @@ resource = Resource(attributes={
 tracer_provider = TracerProvider(resource=resource)
 
 # create an OTLP trace exporter
-url = 'url'
-headers = {"Authorization": "Authorization"}
+url = 'http://localhost:5080/api/default/v1/traces'
+headers = {
+    "Authorization": "Basic cm9vdEBleGFtcGxlLmNvbTpDb21wbGV4cGFzcyMxMjM="}
 
 exporter = OTLPSpanExporter(endpoint=url, headers=headers)
 

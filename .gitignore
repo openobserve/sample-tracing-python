@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+bin/
 # C extensions
 *.so
 
@@ -83,6 +83,7 @@ ipython_config.py
 
 # pyenv
 .python-version
+pyvenv.cfg
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
